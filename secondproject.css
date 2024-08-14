@@ -6,7 +6,6 @@ body{
 padding: 0px; 
 }
 .header{
-    /* border: 2px solid brown; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,22 +14,21 @@ padding: 0px;
    margin-top: 0px;
 }
 .header-logo{
-    /* border: 2px solid green; */
     width:182px;
     height: 24px;
     display: flex;
     
 }
 .a-tags{
-    /* border: solid 2px hotpink; */
 }
 a{
     color:#18191F;
     text-decoration: none;
-    /* border: solid 2px orangered; */
     width: 500px;
     font-size: 16px;
     font-weight: 500;
+    justify-content: space-between;
+    margin-right: 20px; 
 }
 .btn-header{
     width: 182px;
@@ -38,10 +36,8 @@ a{
     display: flex;
     gap: 20px;
     align-items: center;
-    /* border: solid 2px blue; */
 }
 .btn{
-    /* background-color:#4CAF4F; */
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 6px;
@@ -73,7 +69,6 @@ br{
     
 }
 .main-1{
-    /* border: solid 2px lime; */
     background-color:#F5F7FA;
     display: flex;
     justify-content: space-around;
@@ -91,7 +86,6 @@ text-align: center;
     justify-content: space-around;
 }
 .main-2{
-    /* border: solid 2px gray; */
 }
 .pthree{
     text-align: center;
@@ -100,29 +94,24 @@ text-align: center;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    /* border:solid 1px orangered; */
     border-radius:6px ;
 }
 .main3-content{
-    /* border:solid 1px rgb(38, 0, 255); */
     border-radius:6px ;
     box-shadow: 0px 2px 4px 0px rgba(172, 190, 209, 0.2);
     border: none;
 }
 .section-p2{
-/* border: 2px solid purple; */
 text-align: justify;
 width: 450px;
 }
 .main2-1{
         display: flex;
         justify-content: space-around;
-        /* border: 2px solid rgb(72, 45, 72);*/
 } 
 .main2-1p{
     width: 580px;
     color: #717171;
-    /* border: 2px solid rgb(234, 14, 17); */
 }
 .main2-btn{
     background-color: #4CAF4F;
@@ -133,23 +122,18 @@ width: 450px;
     text-align: center; 
 }
 .main2-pic{
-    /* border: 2px solid rgb(6, 4, 4); */
 }
 .main2-div{
-/* border: 2px solid rgb(110, 5, 63); */
 }
 .main2-2p{
     color: #18191F;
     font-size: 16px;
-    /* border: 2px solid rgb(206, 28, 28); */
     width: 450px;   
 }
 .main2-div2{
-    /* border: 2px solid rgb(186, 144, 144); */
    
 }
 .main2{
-    /* border: 2px solid rgb(3, 63, 66); */
     display: flex;
     justify-content: space-around;
     background-color:#F5F7FA;
@@ -162,7 +146,6 @@ width: 450px;
     justify-content: space-between;
     gap: 5px; 
     padding: 5px; 
-    /* border: 2px solid rgb(73, 4, 4); */
     width: 600px;
 }
 
@@ -183,7 +166,6 @@ width: 450px;
 }
 .main3{
     display: flex;
-    /* border: 2px solid rgb(72, 45, 72);  */
     width:1435px;
     height:434px;
     gap: 50px;
@@ -191,15 +173,12 @@ width: 450px;
    align-items: center;
 }
 .main3-pic{
-    /* border: solid 2px rgb(146, 139, 6);  */
 }
 .main3-p{
-    /* border: solid 2px lime;  */
     width: 580px;
  
 }
 .main3-h2{
-    /* border: 2px solid purple; */
     text-align: justify;
     width: 550px;
 }
@@ -212,7 +191,6 @@ width: 450px;
     text-align: center;    
 }
 .main4{
-    /* border: 2px solid purple;    */
     display: flex; 
     justify-content: space-around;
     width: 1435px;
@@ -220,15 +198,13 @@ width: 450px;
     align-items: center;
 }
 .main4-pic1{
-    /* border: solid 2px lime;     */
+
 }
 .main4-div2{
-    /* border: solid 2px rgb(146, 139, 6);   */
     width: 650px; 
 }
 .main4-icons{
     gap: 20px;
-    /* border: solid 2px rgb(22, 22, 20); */
     display: flex;
     justify-content: space-between;
 }
@@ -236,7 +212,6 @@ h3{
     align-items: center;
 }
 .main5{
-    /* border: 2px solid rgb(5, 1, 8); */
     height: 500px;
 }
 .main5-div2{
@@ -244,10 +219,8 @@ h3{
      
 }
 .main5-div{
-    /* border: 1px solid hotpink; */
 }
 .main5-content{
-    /* border: 1px solid rgb(25, 4, 15);  */
     background-color:#F5F7FA;
     width: 250px;
     height: 150px;
@@ -276,19 +249,16 @@ h3{
    text-align: center;
 }
 .section2{
-    /* border: 2px solid goldenrod; */
     display: flex;
     justify-content: space-around;
 }
 .mainc-1{
-    /* border:2px solid teal; */
     text-align: center;
     font-size: 64px;
     height: 350px;
     
 } 
 .main5-2{
-    /* border:2px solid teal; */
     display: flex;   
     gap: 250px;
     background-color: #263238;
